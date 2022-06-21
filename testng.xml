@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="HMRCInterviewTest" thread-count="1" parallel="classes">
+    <parameter name="browserName" value="chrome" />
+    <parameter name="isRemote" value="false" />
+    <test name="AddToCart">
+        <classes>
+            <class name="com.HMRC.AddHighestPriceItemToCart"/>
+        </classes>
+    </test>
+</suite>
